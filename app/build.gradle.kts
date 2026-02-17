@@ -48,5 +48,5 @@ dependencies {
     androidTestImplementation(libs.androidx.espresso.core)
 
     implementation("com.google.android.material:material:1.13.0")
-    implementation("gson:gson:2.8.6")
+    implementation("com.google.code.gson:gson:2.13.2")
 }
