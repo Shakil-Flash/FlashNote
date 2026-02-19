@@ -2,6 +2,9 @@ import com.android.tools.r8.internal.im
 
 plugins {
     alias(libs.plugins.android.application)
+
+    id("com.google.devtools.ksp") version "2.3.5"
+    kotlin("jvm")
 }
 
 android {
