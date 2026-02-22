@@ -44,6 +44,7 @@
         android:layout_margin="20dp"
         android:src="@drawable/ic_addbutton"
         android:backgroundTint="@color/black"
+        android:contentDescription="@string/button"
 
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"

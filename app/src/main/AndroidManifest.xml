@@ -12,10 +12,14 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.FLASHnote">
         <activity
+            android:name=".NoteView"
+            android:exported="false" />
+        <activity
             android:name=".HomeScreen"
-            android:exported="true" >
+            android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
+
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
